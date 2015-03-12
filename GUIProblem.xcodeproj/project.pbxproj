@@ -14,6 +14,10 @@
 		DC2DDCBE1AAFCD2400304157 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC2DDCBD1AAFCD2400304157 /* Images.xcassets */; };
 		DC2DDCC11AAFCD2400304157 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC2DDCBF1AAFCD2400304157 /* LaunchScreen.xib */; };
 		DC2DDCCD1AAFCD2400304157 /* GUIProblemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2DDCCC1AAFCD2400304157 /* GUIProblemTests.m */; };
+		DC2DDCD81AAFCF1F00304157 /* ForwardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2DDCD71AAFCF1F00304157 /* ForwardViewController.m */; };
+		DC2DDCDB1AAFCF2700304157 /* BackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2DDCDA1AAFCF2700304157 /* BackViewController.m */; };
+		DC2DDCDE1AAFD1BE00304157 /* grid4.png in Resources */ = {isa = PBXBuildFile; fileRef = DC2DDCDD1AAFD1BE00304157 /* grid4.png */; };
+		DC2DDCE01AAFD22A00304157 /* Solid-Colors-Spectrum-Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = DC2DDCDF1AAFD22A00304157 /* Solid-Colors-Spectrum-Blue.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,12 @@
 		DC2DDCC61AAFCD2400304157 /* GUIProblemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GUIProblemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC2DDCCB1AAFCD2400304157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC2DDCCC1AAFCD2400304157 /* GUIProblemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUIProblemTests.m; sourceTree = "<group>"; };
+		DC2DDCD61AAFCF1F00304157 /* ForwardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForwardViewController.h; sourceTree = "<group>"; };
+		DC2DDCD71AAFCF1F00304157 /* ForwardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForwardViewController.m; sourceTree = "<group>"; };
+		DC2DDCD91AAFCF2700304157 /* BackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackViewController.h; sourceTree = "<group>"; };
+		DC2DDCDA1AAFCF2700304157 /* BackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackViewController.m; sourceTree = "<group>"; };
+		DC2DDCDD1AAFD1BE00304157 /* grid4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grid4.png; sourceTree = "<group>"; };
+		DC2DDCDF1AAFD22A00304157 /* Solid-Colors-Spectrum-Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Solid-Colors-Spectrum-Blue.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,7 @@
 		DC2DDCA41AAFCD2400304157 = {
 			isa = PBXGroup;
 			children = (
+				DC2DDCDC1AAFD1A700304157 /* Art */,
 				DC2DDCAF1AAFCD2400304157 /* GUIProblem */,
 				DC2DDCC91AAFCD2400304157 /* GUIProblemTests */,
 				DC2DDCAE1AAFCD2400304157 /* Products */,
@@ -86,6 +97,10 @@
 				DC2DDCB71AAFCD2400304157 /* ViewController.h */,
 				DC2DDCB81AAFCD2400304157 /* ViewController.m */,
 				DC2DDCBA1AAFCD2400304157 /* Main.storyboard */,
+				DC2DDCD61AAFCF1F00304157 /* ForwardViewController.h */,
+				DC2DDCD71AAFCF1F00304157 /* ForwardViewController.m */,
+				DC2DDCD91AAFCF2700304157 /* BackViewController.h */,
+				DC2DDCDA1AAFCF2700304157 /* BackViewController.m */,
 				DC2DDCBD1AAFCD2400304157 /* Images.xcassets */,
 				DC2DDCBF1AAFCD2400304157 /* LaunchScreen.xib */,
 				DC2DDCB01AAFCD2400304157 /* Supporting Files */,
@@ -117,6 +132,15 @@
 				DC2DDCCB1AAFCD2400304157 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC2DDCDC1AAFD1A700304157 /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				DC2DDCDF1AAFD22A00304157 /* Solid-Colors-Spectrum-Blue.png */,
+				DC2DDCDD1AAFD1BE00304157 /* grid4.png */,
+			);
+			name = Art;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,7 +225,9 @@
 			files = (
 				DC2DDCBC1AAFCD2400304157 /* Main.storyboard in Resources */,
 				DC2DDCC11AAFCD2400304157 /* LaunchScreen.xib in Resources */,
+				DC2DDCDE1AAFD1BE00304157 /* grid4.png in Resources */,
 				DC2DDCBE1AAFCD2400304157 /* Images.xcassets in Resources */,
+				DC2DDCE01AAFD22A00304157 /* Solid-Colors-Spectrum-Blue.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +247,8 @@
 			files = (
 				DC2DDCB91AAFCD2400304157 /* ViewController.m in Sources */,
 				DC2DDCB61AAFCD2400304157 /* AppDelegate.m in Sources */,
+				DC2DDCDB1AAFCF2700304157 /* BackViewController.m in Sources */,
+				DC2DDCD81AAFCF1F00304157 /* ForwardViewController.m in Sources */,
 				DC2DDCB31AAFCD2400304157 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,6 +374,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GUIProblem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -356,6 +385,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GUIProblem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -414,6 +444,7 @@
 				DC2DDCD21AAFCD2400304157 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC2DDCD31AAFCD2400304157 /* Build configuration list for PBXNativeTarget "GUIProblemTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +453,7 @@
 				DC2DDCD51AAFCD2400304157 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
